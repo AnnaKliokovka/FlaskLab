@@ -1,12 +1,4 @@
-from flask import Flask
+import Lab1.lab1
 
-app = Flask(__name__)
+Lab1.lab1.app()
 
-
-@app.route("/")
-def hello():
-    return "Hello, World!"
-
-
-if __name__ == "__main__":
-    app.run()
